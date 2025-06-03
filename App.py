@@ -227,7 +227,7 @@ def process_combined_output(file_path, output_file):
                                 df['Description'].str.endswith('U3 RB Approved Transaction Amount', na=False))]
             summed_row = filtered_rows[['No of Txns', 'Debit', 'Credit']].sum()
             new_row = {
-                'sheetname': sheet_name,
+                'Cycle': sheet_name,
                 'Description': 'Beneficiary Approved Transaction Amount U3',
                 'No of Txns': summed_row['No of Txns'],
                 'Debit': summed_row['Debit'],

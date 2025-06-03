@@ -1,7 +1,4 @@
-import streamlit as st
-import pandas as pd
-import zipfile
-from io import BytesIO
-import os
-import openpyxl
-from openpyxl.utils.dataframe import dataframe_to_rows
+streamlit
+pandas
+openpyxl
+xlrd
